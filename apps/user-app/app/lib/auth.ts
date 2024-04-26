@@ -31,7 +31,6 @@ export const authOptions = {
                 }
                 return null;
             }
-
             try {
                 const user = await db.user.create({
                     data: {
